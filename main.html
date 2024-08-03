@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nu Metal de Cria</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body class="pt-md-0 p-md-5">
+    <header>
+        <div class="navbar navbar-dark navbar-expand-md">
+            <div class="container">
+                <button type="button" class="navbar-toggler  btn-hamburguer" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-center" id="menu">
+                    <ul class="nav navbar nav-pills">
+                        <li class="nav-item btn-menu">
+                            <a href="#index" class="nav-link">
+                                <span class="color-gray">
+                                    <i class="bi bi-house-door-fill"></i>
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item btn-menu">
+                            <a href="#bandas" class="nav-link color-grey">
+                                <span class="color-gray">
+                                    <i class="bi bi-headphones"></i>
+                                    Bandas
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item btn-menu">
+                            <div class="btn-group">
+                                <button type="button" class="btn p-0 color-gray">
+                                    <a href="#albuns" class="nav-link">
+                                        <span class="color-gray">
+                                            <i class="bi bi-vinyl-fill"></i>
+                                            Álbuns
+                                        </span>
+                                    </a>
+                                </button>
+                                <button type="button" data-bs-toggle="dropdown" class="color-gray btn dropdown-toggle"></button>      
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item ">
+                                        <a href="#nav1">Slipknot</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#nav2">Sepultura</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#nav3">Linkin Park</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#nav4">Evanescence</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="index" class=" p-lg-4 pb-lg-5 m-1 color-1">
+        <div class="container">
+            <h1 class="text-metal text-center mb-md-5">Nu Metal de Cria</h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div id="carousel-imgs" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img src="./img/slide1.jpg" alt="" class="img-carousel d-block w-100 h-50 rounded">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="./img/slide2.jpeg" alt="" class="img-carousel d-block w-100 h-50 rounded">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="./img/slide3.jpg" alt="" class="img-carousel d-block w-100 h-50 rounded">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="./img/slide4.jpg" alt="" class="img-carousel d-block w-100 h-50 rounded">
+                            </div>
+                            <div class="carousel-indicators carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="1" ></button>
+                                <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="3"></button>     
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-6 col-md-12 pt-0 p-md-5 h-50 mt-2">
+                    <h4 class="text-metal text-center">Casa do Nu Metal SSa</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae numquam inventore corporis asperiores tempore libero? A voluptas sunt modi enim aliquid. Dolore minima dolores unde illum, sapiente sed dicta assumenda.</p>
+                    <ul class="social-links text-center">
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-twitter-x"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-github"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-spotify"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-discord"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bandas" class="p-4 pb-md-5 m-1 color-2">
+        <div class="container">
+            <h1 class="text-metal text-center">
+                Bandas
+            </h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 cards">
+                    <div class="card text-bg-dark">
+                        <img src="./img/cards/slipknot-card.jpg" class="img-card" alt="imagem 100x100"/>
+                        <div class="card-img-overlay">
+                            <h4 class="text-metal card-tittle">Slipknot</h4>
+                            <h5 class="card-subtittle">Reis do bate-cabeça</h5>
+                            <p class="card-text">Donos de uma estética muito foda, slipknot é conhecido pelas máscaras, metal "sujo" e refrões melódicos.</p>
+                            <a target="_blank" href="https://open.spotify.com/intl-pt/artist/05fG473iIaoy82BF1aGhL8?si=Gh1cUdrgQXi-LsBhSziK6Q" class="btn-card-banda btn btn-primary">
+                                <i class="bi bi-spotify"></i>
+                                Ouvir agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 cards">
+                    <div class="card text-bg-dark">
+                        <img src="./img/cards/sepultura-card.jpg" alt="imagem 100x100"/>
+                        <div class="card-img-overlay">
+                            <h4 class="text-metal card-tittle">Sepultura</h4>
+                            <h5 class="card-subtittle">Metal Brasileiro</h5>
+                            <p class="card-text">Maior nome do metal brasileiro, sepultura mistura elementos de trash metal com sonoridades tribais.</p>
+                            <a target="_blank" href="https://open.spotify.com/intl-pt/artist/6JW8wliOEwaDZ231ZY7cf4?si=EtxbD_BrTWy6B6axanke8g" class="btn-card-banda btn btn-primary">
+                                <i class="bi bi-spotify"></i>
+                                Ouvir agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 cards">
+                    <div class="card text-bg-dark">
+                        <img src="./img/cards/linkin-park-card.jpg" alt="imagem 100x100"/>
+                        <div class="card-img-overlay">
+                            <h4 class="text-metal card-tittle">Linkin Park</h4>
+                            <h5 class="card-subtittle">The G.O.A.T</h5>
+                            <p class="card-text">Percursores da teoria hibrida, onde misturam elementos do Metal com o hip-hop e eletronica. #RipChaz.</p>
+                            <a target="_blank" href="https://open.spotify.com/intl-pt/artist/6XyY86QOPPrYVGvF9ch6wz?si=6s4e8ME_RsCa5LMKQDVYrw" class="btn-card-banda btn btn-primary">
+                                <i class="bi bi-spotify"></i>
+                                Ouvir agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 cards">
+                    <div class="card text-bg-dark">
+                        <img src="./img/cards/evanescence-card.jpg" alt="imagem 100x100"/>
+                        <div class="card-img-overlay">
+                            <h4 class="text-metal card-tittle">Evanescence</h4>
+                            <h5 class="card-subtittle">Amy Lee Rainha</h5>
+                            <p class="card-text">Banda de metal-core, evanescence se destaca por músicas melancólicas com a voz da espetacular Amy Lee.</p>
+                            <a target="_blank" href="https://open.spotify.com/intl-pt/artist/5nGIFgo0shDenQYSE0Sn7c?si=j7n8_OcOSGi9y7rz3B47RQ" class="btn-card-banda btn btn-primary">
+                                <i class="bi bi-spotify"></i>
+                                Ouvir agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="albuns" class=" p-4 p-sm-5 m-1 color-1">
+            <div class="container">
+                <h1 class="text-metal text-center">Álbuns</h1>
+                <div class="row">
+                    <div class="col-lg-3 mb-5">
+                        <nav class="nav nav-pills flex-column">
+                            <button id="nav1" data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Slipknot</button>
+                            <button id="nav2" data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Sepultura</button>
+                            <button id="nav3" data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Linkin Park</button>
+                            <button id="nav4" data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button">Evanescence</button>
+                        </nav>
+                    </div>
+                    <div class="col-lg-9 mt-2">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aba1">
+                                <h3 class="text-metal text-center">Slipknot</h3>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">The end, so far</h4></div>
+                                            <img src="./img/albuns/slipknot/The_End_So_Far.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/3hWTXO0w02D6YpVRyLRmQz?si=84w0cDnrTjOz-h9cvv-ymw">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLvXUqfNLb-tmW0ZXdHqSzWQlWi_ilGZ-_&si=AyRpvXZZKcrbZrAF">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">We are not your kind</h4></div>
+                                            <img src="./img/albuns/slipknot/wearenot.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">                                              
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/754RY5WpZ2LTUZsk8kDBju?si=u_7-BsbcT8W0Jk2b0er0Zg">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLvXUqfNLb-tnlP1TgObahebiRcIcVyc2J&si=u-BFwqAp6IlybET2">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">All hope is gone</h4></div>
+                                            <img src="./img/albuns/slipknot/allhope.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">                                                
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/album/3jxfbLOTT3K7mVsEpfTEX3?si=oi7eyw7bRaybxEpNh3CsDQ">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLvXUqfNLb-tlw1pyu8GYsjIzMe6HYtDSa&si=057-7MPlaMZXokXM">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba2">
+                                <h3 class="text-metal text-center">Sepultura</h3>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"></div>
+                                            <img src="./img/albuns/sepultura/roots.webp" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <h4 class="text-metal card-tittle">Roots</h4>
+                                                <p class="card-subtittle">Álbum - 1996</p>
+                                                <p>Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/5JjnPCfpp6redrkKpXZAs8?si=JwKIv3tUTfeNHTsF0vi4sQ">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=OLAK5uy_l5uxoXx1XaGDjC-IZN6LqW_Pqlywntxww&si=8t2ceiIFtC11AB4N">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"></div>
+                                            <img src="./img/albuns/sepultura/chaosad.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <h4 class="text-metal card-tittle">Chaos ad</h4>
+                                                <p class="card-subtittle">Álbum - 1993</p>
+                                                <p>Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/5r4qa5AIQUVypFRXQzjaiu?si=znxzDTsmSZ2f2u5G1C3Djw">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=OLAK5uy_neGd0JX73sdTq_RtYsmBzfa4y8GfzkfwA&si=f9wdHfDcTGg2W6lp">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"></div>
+                                            <img src="./img/albuns/sepultura/arise.jpeg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <h4 class="text-metal card-tittle">Arise</h4>
+                                                <p class="card-subtittle">Álbum - 1991</p>
+                                                <p>Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/7hgWmH16eu70yqrg5Pc3SM?si=mQ-e4YxtTRuDtCZe73F13A">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLuNo3QIRXZYhEafWj7PpDcWDFjsNHkRuJ&si=axH_hr3en8ORvaxZ">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba3">
+                                <h3 class="text-metal text-center">Linkin Park</h3>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">Hybrid Theory</h4></div>
+                                            <img src="./img/albuns/linkinpark/hybridtheory.png" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/album/1FiRqhpAowNK8gTl5sOhxZ?si=BYSsVp_GR6mZT92EdbVNUQ">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLlqZM4covn1Fqt0s7yvqeTCPV9y_MXXTA&si=8xStj_BpkUk4uvr6">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">Meteora</h4></div>
+                                            <img src="./img/albuns/linkinpark/meteora.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/album/3Q9wXhEAX7NYCPP0hxIuDz?si=fIT6K_D6Qfuoa2eMVpQf4Q">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLlqZM4covn1EbvC_6cuERQ59QaMbPkUyE&si=wwZp2PdNz3L4rCOa">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">Living Things</h4></div>
+                                            <img src="./img/albuns/linkinpark/livingthings.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/album/7qRKpkP0jSOlBMLYZhAMCh?si=D4igKqbETvmdrxyG0VoIxw">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLFum7IUqWKUiv6A9UArivDXR5ReKr8IdX&si=mU88ZwpDIXBcaXSl">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">One more light</h4></div>
+                                            <img src="./img/albuns/linkinpark/oml.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/5Eevxp2BCbWq25ZdiXRwYd?si=l6k_hU_UTRuHMktiHRsm4g">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLlqZM4covn1H69IAGko-oNj0lubezFQms&si=RJumRqlN05OnwOmn">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba4">
+                                <h3 class="text-metal text-center"> Evanescence</h3>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">Fallen</h4></div>
+                                            <img src="./img/albuns/evanescence/fallen.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/02w1xMzzdF2OJxTeh1basm?si=CJUMVrdcSiGZ3T-fUiSKyQ">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLyiJJuoccx3aVgSpqZd4Na3lLQNSyvmtC&si=hpsX-_5ZZe2aEA5z">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">Anywhere but home</h4></div>
+                                            <img src="./img/albuns/evanescence/anywerebuthome.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/5SpQ4sf9sXFWHgUKYCZSDF?si=gdYQuVVJRPCZZadm9eFhXQ">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PLQvL6GLJiX91I_GmjKDZCYAS8kTM2wZnA&si=WZL3QsI0i1BS4hzy">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark">
+                                            <div class="card-header"><h4 class="text-metal card-tittle">The open door</h4></div>
+                                            <img src="./img/albuns/evanescence/theopendoor.jpg" alt="imagem 100x100"/>
+                                            <div class="card-body">
+                                                <p class="card-subtittle">Ouça agora:</p>
+                                                <div class="albuns-link">
+                                                    <li>
+                                                        <a target="_blank" href="https://open.spotify.com/intl-pt/album/3lFQ9ihSNR5YD0yi0yTzdC?si=K0-XO0AlQOahroa52AvSVA">
+                                                            <i class="bi bi-spotify"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a target="_blank" href="https://youtube.com/playlist?list=PL4B528D69EA90CE14&si=ur4RKUGvk3jVqg_m">
+                                                            <i class="bi bi-youtube"></i>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <button type="button" id="btn-cuidado" class="btn btn-danger position-fixed bottom-0 end-0 p-3 m-md-5"><i class="bi bi-exclamation-triangle"></i></button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div data-bs-autohide="true" class="toast" id="msg-alert">
+            <header class="toast-header">
+                <strong>ATENÇÃO!!</strong>
+            </header>
+            <div class="toast-body">
+                Nunca faça o sinal do rock em Salvador. <br>
+                Pode a ser confudido com sinal de facção. 
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const ativadorToast = document.getElementById('btn-cuidado')
+        const mensagem = document.getElementById('msg-alert')
+
+        if(ativadorToast){
+            ativadorToast.addEventListener('click', function(){
+                const toast = new bootstrap.Toast(mensagem)
+                toast.show()
+            })
+        }
+    </script>
+</body>
+</html>

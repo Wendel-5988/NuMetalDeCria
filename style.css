@@ -1,0 +1,207 @@
+body {
+    background-color: black;
+    font-family: "Metal", serif;
+}
+
+header {
+    background-color: black;
+}
+
+
+.toast-container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-danger {
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+p {
+    font-size: 20px;
+    color: rgb(143, 143, 143);
+}
+
+
+.text-metal {
+    font-family: "Metal Mania", system-ui;
+    
+}
+
+h1 {
+    color: #fff;
+}
+
+.tab-pane .card-tittle{
+    color: rgb(143, 143, 143);
+}
+.color-1 {
+    background-color: rgb(26, 26, 26);
+}
+
+.color-2 {
+    background-color: rgb(30, 30, 30);
+}
+
+.btn-hamburguer {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.color-gray {
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+
+.btn-menu:hover .color-gray {
+    color: aliceblue;
+}
+
+.btn-menu {
+    border: 2px solid  rgb(143, 143, 143);
+    border-radius: 2vh;
+    margin-left: 5px;
+}
+
+.dropdown-toggle {
+    border-left: 1px solid rgb(143, 143, 143);
+}
+
+.dropdown-toggle:hover {
+    border-left: 1px solid rgb(143, 143, 143);
+    
+}
+
+.dropdown-toggle.show {
+    border: none;
+}
+
+li.dropdown-item {
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
+    
+}
+
+li.dropdown-item:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+ul.dropdown-menu.show {
+    background-color: rgb(26, 26, 26);
+}
+
+li.dropdown-item a {
+    background-color: rgb(26, 26, 26);
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+    
+}
+
+li.dropdown-item:hover a {
+    color: aliceblue;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+section {
+    color: rgb(143, 143, 143);
+}
+
+.imgHouse {
+    max-width: 100%;
+}
+
+.social-links li{
+    display: inline;
+    margin: 2vh;
+    font-size: 3vh;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.social-links li:hover {
+    color: aliceblue;
+}
+
+
+.albuns-link {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 250%;
+}
+
+.albuns-link li {
+    display: inline;
+    margin: 0;
+}
+
+.albuns-link li a { 
+    color: rgb(143, 143, 143);
+}
+
+.albuns-link li:hover a {
+    color: aliceblue;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.465);
+}
+
+.cards {
+    margin-bottom: 3vh;
+} 
+
+.card {
+    margin-bottom: 3vh;
+}
+
+.card img {
+    height: 55vh;
+}
+
+.cards img {
+    height: 90vh;
+}
+
+
+
+.nav-link {
+    color: rgb(143, 143, 143);
+}
+
+.nav-link:hover {
+    color: aliceblue;
+    background-color: rgb(30, 30, 30);
+}
+
+
+
+
+.btn-card-banda {
+    color: rgb(143, 143, 143);
+    background-color: rgb(30, 30, 30);
+    border: 1px solid rgb(143, 143, 143);
+}
+
+.btn-card-banda:hover {
+    background-color: rgb(143, 143, 143);
+    border: 2px solid aliceblue;
+}
+
+.cards .card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img-overlay p{
+    color: aliceblue;
+}
+
+@media screen and (max-width:360px) {
+    .nav {
+        display: block;
+    }
+}
